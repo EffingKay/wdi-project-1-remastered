@@ -1,0 +1,113 @@
+body {
+  background-color: #F5BB00;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  transition: background .4s;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.main {
+  clear: both;
+  margin: auto;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 800;
+  font-family: 'Cutive Mono', monospace;
+}
+
+h2 {
+  margin-bottom: 2em;
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  display: inline-block;
+  margin: 0 2em;
+  font-size: 1.75em;
+}
+
+.board {
+  width: 100%;
+  padding: 1em 0;
+  margin: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.word {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 1.2em;
+}
+
+
+button {
+  padding: 1em 3em;
+  margin: 0 1em;
+  border-radius: 5px;
+  border: 2px solid #222;
+  color: #FAFAFA;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.2em;
+  background: #000;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #000;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: black;
+  color: white;
+  padding: 1em 2em;
+  border: 10px;
+  font-size: .8em;
+  margin-top: .5em;
+  text-align: center;
+  width: 60%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.game {
+  height: 87vh;
+}
+
+.landingScreen {
+  padding: 6em;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
